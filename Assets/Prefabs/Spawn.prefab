@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3444097267564771793
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6662651678129016513}
+  - component: {fileID: 6453919451563679385}
+  m_Layer: 0
+  m_Name: Spawn
+  m_TagString: Spawn
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6662651678129016513
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3444097267564771793}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6453919451563679385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3444097267564771793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b8c3a258c13b5642869270a90264bf2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bloons:
+  - {fileID: 7737158818702700225, guid: ff33f6d0e6e786d4c95e9be5cb6d5e90, type: 3}
+  - {fileID: 4702559412315865636, guid: 460ce563da764dc439faff85c5ee4391, type: 3}
+  - {fileID: 7737158818702700225, guid: 81d3d422e264162449bddf138e91b755, type: 3}
+  - {fileID: 7737158818702700225, guid: e48d88c836685a64780408c67486cbad, type: 3}
+  - {fileID: 7737158818702700225, guid: d32f1a409a8647343805197ecbd63229, type: 3}
+  - {fileID: 7737158818702700225, guid: ecc612467fe7e3440ba2daff44881ff2, type: 3}
+  - {fileID: 7737158818702700225, guid: 0df77b3d31de4da47ad8bb05ed5c5fed, type: 3}

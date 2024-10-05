@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(56, 56, 56, 0.68);">
+        <ui:Label tabindex="-1" text="Shop" parse-escape-sequences="true" display-tooltip-when-elided="true" style="align-self: center; align-items: stretch; background-color: rgba(0, 0, 0, 0); font-size: 36px; color: rgb(255, 255, 255);" />
+        <ui:VisualElement style="flex-grow: 1; flex-direction: row; justify-content: flex-start; align-self: auto;">
+            <ui:VisualElement style="flex-grow: 1;" />
+            <ui:VisualElement style="flex-grow: 1; align-self: center;">
+                <ui:Button text="Dart Monkey&#10;100$" parse-escape-sequences="true" display-tooltip-when-elided="true" name="DartMonkeyButton" />
+                <ui:Button text="Bomb Upgrade&#10;200$" parse-escape-sequences="true" display-tooltip-when-elided="true" name="BombButton" />
+                <ui:Button text="Bomb Monkey&#10;150$" parse-escape-sequences="true" display-tooltip-when-elided="true" name="BombMonkeyButton" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

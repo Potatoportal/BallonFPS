@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 0; flex-direction: row;">
+        <ui:Label tabindex="-1" text="Health: " parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-text-outline-color: rgb(255, 255, 255); -unity-text-outline-width: 1px; font-size: 40px; text-shadow: 0 0 0 rgba(255, 255, 255, 0); letter-spacing: 0;" />
+        <ui:Label tabindex="-1" text="100" parse-escape-sequences="true" display-tooltip-when-elided="true" name="HealthLabel" style="font-size: 40px; -unity-text-outline-width: 1px; -unity-text-outline-color: rgb(255, 255, 255);" />
+    </ui:VisualElement>
+    <ui:VisualElement style="flex-grow: 0; flex-direction: row;">
+        <ui:Label tabindex="-1" text="Money: " parse-escape-sequences="true" display-tooltip-when-elided="true" style="font-size: 40px; -unity-text-outline-width: 1px; -unity-text-outline-color: rgb(255, 255, 255);" />
+        <ui:Label tabindex="-1" text="100" parse-escape-sequences="true" display-tooltip-when-elided="true" name="MoneyLabel" style="font-size: 40px; background-color: rgba(255, 255, 255, 0); -unity-text-outline-width: 1px; -unity-text-outline-color: rgb(255, 255, 255);" />
+    </ui:VisualElement>
+    <ui:VisualElement name="NotificationVisual" style="flex-grow: 0; flex-direction: row; align-self: center; justify-content: flex-start; align-items: stretch;">
+        <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="NotificationLabel" enable-rich-text="true" style="align-self: auto; justify-content: flex-start; -unity-text-outline-color: rgb(255, 255, 255); font-size: 40px; -unity-text-outline-width: 1px;" />
+    </ui:VisualElement>
+</ui:UXML>

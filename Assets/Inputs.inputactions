@@ -1,0 +1,175 @@
+{
+    "name": "Inputs",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "e6ef8a6f-ed6f-4370-8541-01d2acd75115",
+            "actions": [
+                {
+                    "name": "Reset",
+                    "type": "Button",
+                    "id": "c9fbe2d3-52d5-4bdd-a5b1-d866724d816d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Shoot",
+                    "type": "Button",
+                    "id": "7f7b794d-3cdf-4cfc-9eb9-5fca5fec3513",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Shop",
+                    "type": "Button",
+                    "id": "e15ffe7e-df89-4b02-95d8-334346bd2556",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Place",
+                    "type": "Button",
+                    "id": "e588f69a-cbe6-452a-b9c9-dfdb92c7a65c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Pause",
+                    "type": "Button",
+                    "id": "e6687489-2cee-42ab-a78a-d9fc8b466558",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "388e98db-3961-4b5f-9be5-0acb1a89a876",
+                    "path": "<Keyboard>/#(R)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Reset",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6af41be6-e1a7-43a6-af4d-ef38d0b1d012",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "07fcd27d-015d-427a-9d27-50acfcd4720a",
+                    "path": "<Keyboard>/#(I)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shop",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6dfe5462-cc24-4314-92ba-0b27e988cf5f",
+                    "path": "<Keyboard>/#(E)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Place",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2991b46e-5822-4752-9fa8-dec001f65597",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Keyboard&Mouse",
+            "bindingGroup": "Keyboard&Mouse",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Gamepad",
+            "bindingGroup": "Gamepad",
+            "devices": [
+                {
+                    "devicePath": "<Gamepad>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Touch",
+            "bindingGroup": "Touch",
+            "devices": [
+                {
+                    "devicePath": "<Touchscreen>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Joystick",
+            "bindingGroup": "Joystick",
+            "devices": [
+                {
+                    "devicePath": "<Joystick>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "XR",
+            "bindingGroup": "XR",
+            "devices": [
+                {
+                    "devicePath": "<XRController>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

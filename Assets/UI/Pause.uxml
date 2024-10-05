@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(20, 20, 20, 0.68);">
+        <ui:Label tabindex="-1" text="Pause" parse-escape-sequences="true" display-tooltip-when-elided="true" style="font-size: 36px; align-self: center; color: rgb(255, 255, 255);" />
+        <ui:VisualElement style="flex-grow: 1; align-self: auto; justify-content: space-around; flex-direction: row; -unity-text-align: upper-left;">
+            <ui:VisualElement style="flex-grow: 1; flex-direction: row; justify-content: center; align-self: auto;">
+                <ui:Label tabindex="-1" text="Round:" parse-escape-sequences="true" display-tooltip-when-elided="true" style="color: rgb(255, 255, 255); font-size: 30%;" />
+                <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="roundLabel" style="color: rgb(255, 255, 255); align-self: auto; font-size: 30%;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1; flex-direction: row; justify-content: center;">
+                <ui:Label tabindex="-1" text="Bloons remaining:" parse-escape-sequences="true" display-tooltip-when-elided="true" style="color: rgb(255, 255, 255); font-size: 30%;" />
+                <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="bloonsLabel" style="color: rgb(255, 255, 255); font-size: 30%;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:Button text="Main Menu" parse-escape-sequences="true" display-tooltip-when-elided="true" name="MainMenuButton" style="align-self: auto; justify-content: flex-start; font-size: 20%;" />
+    </ui:VisualElement>
+</ui:UXML>
